@@ -10,7 +10,7 @@ import math
 def main():
 
     # input
-    side = int(input("Type in the side length of your octagon in centimeters: "))
+    side = float(input("Type in the side length of your octagon in centimeters: "))
 
     # process
     area = 2 * (1 + math.sqrt(2)) * math.pow(side, 2)
