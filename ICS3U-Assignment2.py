@@ -18,7 +18,7 @@ def main():
 
     # output
     print(
-        "\nThe area of the octagon is {0:,.2f} cm², and the perimeter is {1:,.2f} cm.".format(
+        "\nThe area of the octagon is {0:,.2f} cm², and the perimeter is {1:,.1f} cm.".format(
             area, perimeter
         )
     )
